@@ -29,7 +29,7 @@ public class UltimatixLogin {
 		driver.findElement(By.xpath("//*[@id='proceed-button']")).click();
 		Thread.sleep(2000);
 
-		
+		 // added just git check
 		driver.findElement(By.xpath("//*[@id='password-btn']")).click();
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//*[@id='password-login']")).sendKeys(ecd.getData("Password"));
