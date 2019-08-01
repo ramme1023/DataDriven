@@ -30,6 +30,7 @@ public class UltimatixLogin {
 		Thread.sleep(2000);
 
 		 // added just git check
+		// added from develpoNew - Branch
 		driver.findElement(By.xpath("//*[@id='password-btn']")).click();
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//*[@id='password-login']")).sendKeys(ecd.getData("Password"));
