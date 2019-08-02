@@ -27,8 +27,8 @@ public class UltimatixLogin {
 		
 		driver.findElement(By.xpath("//*[@class='form-control']")).sendKeys(ecd.getData("UserName"));
 		driver.findElement(By.xpath("//*[@id='proceed-button']")).click();
-		Thread.sleep(2000);
-
+		Thread.sleep(3000);
+	//changed sleep time
 		 // added just git check
 		// added from develpoNew - Branch
 		driver.findElement(By.xpath("//*[@id='password-btn']")).click();
